@@ -6,6 +6,7 @@
         LoadContent();
         LoadFooter();
     }
+    window.addEventListener("load", start);
     function AddContact(fullName, contactNumber, emailAddress) {
         let contact = new core.Contact(fullName, contactNumber, emailAddress);
         if (contact.serialize()) {
@@ -257,6 +258,5 @@
     function DisplayAboutUsPage() {
         console.log("About Us Page Called");
     }
-    window.addEventListener("load", start);
 })();
 //# sourceMappingURL=app.js.map
