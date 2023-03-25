@@ -1,6 +1,7 @@
 {
   "name": "ICE 4",
   "devDependencies": {
+    "@types/mime-types": "^2.1.1",
     "lite-server": "^2.6.1"
   },
   "packageManager": "yarn@3.3.1",
@@ -8,11 +9,11 @@
     "@fortawesome/fontawesome-free": "^6.2.1",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
-    "jquery": "^3.6.3"
+    "jquery": "^3.6.3",
+    "mime-types": "^2.1.35",
+    "nodemon": "^2.0.22"
   },
   "scripts": {
     "dev": "lite-server"
   }
 }
-
-
